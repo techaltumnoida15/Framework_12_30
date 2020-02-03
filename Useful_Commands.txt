@@ -1,0 +1,32 @@
+SikuliX
+
+CLASSES:
+Screen - Focus on screen
+Pattern - Find Images
+
+=============================
+
+Extent Report
+
+URL:
+https://extentreports.com/
+
+DOWNLOAD URL:
+https://extentreports.com/community/
+
+MAVEN INFO:
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>${version}</version>
+</dependency>
+
+IMPORTANT CLASSES:
+ExtentHtmlReporter - for look and feel of report
+
+ExtentReports - To create entry of test in report
+
+ExtentTest - To update status of test in report
+
+//Can we have cunst as private..?
+//What is singelton pattern?

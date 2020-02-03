@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47246" started-at="2020-02-02T08:40:19Z" finished-at="2020-02-02T08:41:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47246" started-at="2020-02-02T08:40:19Z" finished-at="2020-02-02T08:41:06Z">
+      <class name="org.techAltum.com.NaukriTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.techAltum.com.NaukriTest@490ab905]" name="beforeClass" is-config="true" duration-ms="156" started-at="2020-02-02T08:40:19Z" finished-at="2020-02-02T08:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:org.techAltum.com.NaukriTest@490ab905]" name="openBrowser" is-config="true" duration-ms="10048" started-at="2020-02-02T08:40:19Z" finished-at="2020-02-02T08:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="naukriTest()[pri:0, instance:org.techAltum.com.NaukriTest@490ab905]" name="naukriTest" duration-ms="35802" started-at="2020-02-02T08:40:29Z" finished-at="2020-02-02T08:41:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naukriTest -->
+        <test-method status="PASS" signature="quitBrowser(org.testng.ITestResult)[pri:0, instance:org.techAltum.com.NaukriTest@490ab905]" name="quitBrowser" is-config="true" duration-ms="916" started-at="2020-02-02T08:41:05Z" finished-at="2020-02-02T08:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=naukriTest status=SUCCESS method=NaukriTest.naukriTest()[pri:0, instance:org.techAltum.com.NaukriTest@490ab905] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.techAltum.com.NaukriTest@490ab905]" name="afterClass" is-config="true" duration-ms="292" started-at="2020-02-02T08:41:06Z" finished-at="2020-02-02T08:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- org.techAltum.com.NaukriTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
