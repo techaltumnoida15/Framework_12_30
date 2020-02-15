@@ -14,13 +14,13 @@ import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
 
-public class NaukriTest extends BaseClass{
+public class NaukriTest02 extends BaseClass{
 
 	@Test
 	public void naukriTest() throws Exception{
-		
+		//Get data from XL
 		ReadDataFrmXL excelReader = new ReadDataFrmXL();
-		excelReader.readDataFrmXL(1);
+		String[][] excelData = excelReader.readDataFrmXL(0);
 		
 		
 		extentTest = extentReport.createTest("Naukri Test", "Searching jobs");   //Mandatory
@@ -44,7 +44,8 @@ public class NaukriTest extends BaseClass{
 		//Enter skills  
 		//WebElement skillsTextBox = driver.findElement(By.name("qp"));
 		WebElement skillsTextBox = driver.findElement(By.name(getData("name_skillsTextBox")));
-		skillsTextBox.sendKeys(getData("skills"));
+		System.out.println("Skill is = " + excelData[1][0]);
+		skillsTextBox.sendKeys(excelData[1][0]);
 		extentTest.info("Skill is entered..");
 		extentTest.createNode("Skill is entered..");
 		

@@ -30,3 +30,23 @@ ExtentTest - To update status of test in report
 
 //Can we have cunst as private..?
 //What is singelton pattern?
+
+==============================================
+
+Collection Framework
+ Set
+ Map
+
+Git - Resolve conflict
+
+TestNG and Selenium Listener
+
+Abstract Class and Interface
+
+static, this, super
+
+Singleton Pattern
+
+Verification and Validation
+
+QA and QC
