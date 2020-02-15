@@ -2,35 +2,35 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="58054" started-at="2020-02-15T07:11:06Z" finished-at="2020-02-15T07:12:05Z">
+  <suite name="Default suite" duration-ms="74022" started-at="2020-02-15T07:45:17Z" finished-at="2020-02-15T07:46:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="58054" started-at="2020-02-15T07:11:06Z" finished-at="2020-02-15T07:12:05Z">
+    <test name="Default test" duration-ms="74022" started-at="2020-02-15T07:45:17Z" finished-at="2020-02-15T07:46:31Z">
       <class name="org.techAltum.com.NaukriTest02">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.techAltum.com.NaukriTest02@cb644e]" name="beforeClass" is-config="true" duration-ms="819" started-at="2020-02-15T07:11:07Z" finished-at="2020-02-15T07:11:07Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.techAltum.com.NaukriTest02@3159c4b8]" name="beforeClass" is-config="true" duration-ms="168" started-at="2020-02-15T07:45:17Z" finished-at="2020-02-15T07:45:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:org.techAltum.com.NaukriTest02@cb644e]" name="openBrowser" is-config="true" duration-ms="14264" started-at="2020-02-15T07:11:07Z" finished-at="2020-02-15T07:11:22Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:org.techAltum.com.NaukriTest02@3159c4b8]" name="openBrowser" is-config="true" duration-ms="10397" started-at="2020-02-15T07:45:17Z" finished-at="2020-02-15T07:45:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="naukriTest()[pri:0, instance:org.techAltum.com.NaukriTest02@cb644e]" name="naukriTest" duration-ms="41695" started-at="2020-02-15T07:11:22Z" finished-at="2020-02-15T07:12:03Z">
+        <test-method status="PASS" signature="naukriTest()[pri:0, instance:org.techAltum.com.NaukriTest02@3159c4b8]" name="naukriTest" duration-ms="62335" started-at="2020-02-15T07:45:27Z" finished-at="2020-02-15T07:46:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- naukriTest -->
-        <test-method status="PASS" signature="quitBrowser(org.testng.ITestResult)[pri:0, instance:org.techAltum.com.NaukriTest02@cb644e]" name="quitBrowser" is-config="true" duration-ms="699" started-at="2020-02-15T07:12:03Z" finished-at="2020-02-15T07:12:04Z">
+        <test-method status="PASS" signature="quitBrowser(org.testng.ITestResult)[pri:0, instance:org.techAltum.com.NaukriTest02@3159c4b8]" name="quitBrowser" is-config="true" duration-ms="732" started-at="2020-02-15T07:46:30Z" finished-at="2020-02-15T07:46:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=naukriTest status=SUCCESS method=NaukriTest02.naukriTest()[pri:0, instance:org.techAltum.com.NaukriTest02@cb644e] output={null}]]]>
+                <![CDATA[[TestResult name=naukriTest status=SUCCESS method=NaukriTest02.naukriTest()[pri:0, instance:org.techAltum.com.NaukriTest02@3159c4b8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.techAltum.com.NaukriTest02@cb644e]" name="afterClass" is-config="true" duration-ms="541" started-at="2020-02-15T07:12:04Z" finished-at="2020-02-15T07:12:05Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.techAltum.com.NaukriTest02@3159c4b8]" name="afterClass" is-config="true" duration-ms="376" started-at="2020-02-15T07:46:30Z" finished-at="2020-02-15T07:46:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

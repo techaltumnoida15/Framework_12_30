@@ -3,11 +3,14 @@ package practice;
 import java.io.File;
 import java.io.FileInputStream;
 
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.FilenameUtils;
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.CellType;
+import org.openqa.selenium.firefox.internal.FileExtension;
 import org.testng.annotations.Test;
 
 public class ReadDataFrmXL {
@@ -16,6 +19,8 @@ public class ReadDataFrmXL {
 	public String[][] readDataFrmXL(int sheetIndex) throws Exception{
 		
 		String filePath = System.getProperty("user.dir") + "//data" + "//TestData.xls";
+		
+		System.out.println("Excel file extension is = " + FilenameUtils.getExtension(filePath));
 		
 		File file = new File(filePath);
 		FileInputStream fIp = new FileInputStream(file);
