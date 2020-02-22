@@ -17,7 +17,7 @@ public class ReadDataFrmXL {
 
 	//@Test
 	public String[][] readDataFrmXL(int sheetIndex) throws Exception{
-		
+	//public void readDataFrmXL() throws Exception{
 		String filePath = System.getProperty("user.dir") + "//data" + "//TestData.xls";
 		
 		System.out.println("Excel file extension is = " + FilenameUtils.getExtension(filePath));
@@ -86,6 +86,10 @@ public class ReadDataFrmXL {
 			throw new Exception("There is some error in cell.");
 		
 		case BLANK:
+			result = "";
+			break;
+		
+		case _NONE:
 			result = "";
 			break;
 			
